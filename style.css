@@ -1,0 +1,36 @@
+#coloredDiv{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: yellow;
+    position: absolute;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#spinButton{
+    margin-left: 20px;
+    margin-top: 240px;
+}
+
+hr {
+    margin-left: 20px;
+    width: 400px;
+}
+
+#resultsText{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 20px;
+}
+
+#resetButton{
+    margin-left: 20px;
+}
