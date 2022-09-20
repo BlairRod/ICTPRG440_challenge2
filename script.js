@@ -15,6 +15,7 @@ function spinColor() {
     printColors();
     totalSpins();
     mostSpun();
+    console.log(savedColors);
 }
 
 function printColors() {
@@ -41,6 +42,7 @@ function mostSpun() {
     if (count['yellow'] == mostCount) colorString = colorString.concat('yellow ');
     if (count['green'] == mostCount) colorString = colorString.concat('green ');
     document.getElementById('mostSpunText').innerHTML = colorString;
+    console.log(colorString);
 }
 
 function resetAll() {
@@ -48,4 +50,5 @@ function resetAll() {
     document.getElementById('resultsDisplayText').innerHTML = '&nbsp;';
     document.getElementById('totalSpinsText').innerHTML = 'Total Spins: ';
     document.getElementById('mostSpunText').innerHTML = "Most Spun: ";
+    console.log(savedColors);
 }
